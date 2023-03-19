@@ -2,19 +2,7 @@
 
 Você e seus amigos AINDA estão criando um software para modelar zumbis! Considere o UML para modelar o zumbi!
 
- ___________________________
-|           Zumbi           |
- ---------------------------
-|                           |
-|  + double: vida           |
-|  + nome: string           |
-|___________________________|
-|                           |
-| + mostraVida(): double    |
-| + transfereVida(zumbiAlvo:|
-|   Zumbi, quantia: double):|
-|                       void|
-|___________________________|
+![image](https://user-images.githubusercontent.com/72671246/226200746-83f85795-2e81-4330-aee0-46cacf986d2d.png)
 
 ----------------------//----------------------
 
