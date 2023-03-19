@@ -1,18 +1,7 @@
-## Getting Started
+## Exercício 5 – Jogo!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Crie Classes em Java que atendam a seguinte especificação;
+- Cada vez que o personagem toma dano ele perde 5 pontos de vida;
+- Cada vez que usa a arma, ela perde 2 pontos de resistência.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://user-images.githubusercontent.com/72671246/226200949-36f169c0-516a-4de4-8724-7b3e2d48291e.png)
