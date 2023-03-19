@@ -1,18 +1,9 @@
-## Getting Started
+## Exercício 6 – Mario Kart!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Crie Classes em Java que atendam a especificação UML abaixo. Em seguida crie ao menos dois objetos de cada, os relacione:
 
-## Folder Structure
+- Os métodos devem apenas imprimir suas ações;
+- As cilindradas podem assumir três valores: 50, 100 e 150;
+- A velocidade pode assumir valores entre 0 e 150.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://user-images.githubusercontent.com/72671246/226201722-a0e78b41-c633-4b89-b7b8-0d848af312c0.png)
