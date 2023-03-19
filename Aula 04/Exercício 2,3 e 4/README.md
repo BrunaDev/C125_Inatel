@@ -1,18 +1,42 @@
-## Getting Started
+## Exercício 2 - Zumbis!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Você e seus amigos AINDA estão criando um software para modelar zumbis! Considere o UML para modelar o zumbi!
 
-## Folder Structure
+ ___________________________
+|           Zumbi           |
+ ---------------------------
+|                           |
+|  + double: vida           |
+|  + nome: string           |
+|___________________________|
+|                           |
+| + mostraVida(): double    |
+| + transfereVida(zumbiAlvo:|
+|   Zumbi, quantia: double):|
+|                       void|
+|___________________________|
 
-The workspace contains two folders by default, where:
+----------------------//----------------------
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Exercício 3 – Zumbis!
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Você e seus amigos CONTINUAM criando um software para modelar zumbis! Considerando o zumbi do exercício 2
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Crie dois zumbis (cada um com seu “new”).
+Manipule a vida individualmente. Depois faça ambas as variáveis de referencias iguais.
 
-## Dependency Management
+Ex: z1 = z2;
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Manipule a vida dos zumbis (através de z1 e z2). Verifique a vida deles.
+
+----------------------//----------------------
+
+Exercício 4 – Zumbis!
+
+Sim isso mesmo, ainda estão no zumbis! Modifique o Zumbi do Exercício 2 para atender a seguinte especificação:
+
+- A ação de transferir vida faz uma verificação antes se de fato é possível ser realizada;
+
+- Ele retorna um booleano informando se deu certo a transferência;
+
+- Modifique o Diagrama para atender o novo requisito.
