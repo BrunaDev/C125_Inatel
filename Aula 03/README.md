@@ -1,18 +1,21 @@
-## Getting Started
+## Exercício 1 – Zé do Lanche
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Você e seus amigos estão no famoso trailler do Zé e querem computar quantos lanches foram consumidos nas últimas três horas. 
 
-## Folder Structure
+- Na primeira hora foram 10, na segunda 4 e na terceira 2.
+- Faça um programa que calcule e imprima o número total e a média de lanches consumidos.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exercício 2 – Zé do Lanche 2
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Faça um programa que consiga ler o número de lanches consumidos no trailler do Zé. Mostre a soma e a média. 
+<p> Utilize o pacote java.util.Scanner para ler os dados e utilize a saída com o método System.out.println() </p>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
+## Exercício 3 – Vida de Estudante!
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Faça um programa que receba uma NPA e informe se o aluno passou ou se ficou de NP3. Caso tenha ficado de NP3, informe a nota e faça a soma com NPA, para o cálculo da NFA. Imprima se ele passou ou não! Utilize a classe Scanner para ler as notas do aluno:
+
+<p> Dica: Scanner entrada = new Scanner(System.in);
+
+<p> Ps: Lembre-se de importar o pacote para a classe Scanner.
