@@ -1,7 +1,7 @@
 # C125_Inatel
 
-Este repositório é referente as atividades de programação que foram feitas na aula de Algoritmos III (Java).
-<p>Professor da matéria: Christopher
+Este repositório é referente as atividades de programação que foram feitas na aula de Programação Orientada a Objeto e Java (POO).
+<p>Professor da matéria: Christopher Lima
 
 ## 📁 Sobre os códigos
 - Foram desenvolvidos usando a IDE IntelliJ e VSCode;
