@@ -7,3 +7,5 @@ Este repositório é referente as atividades de programação que foram feitas n
 - Foram desenvolvidos usando a IDE IntelliJ e VSCode;
 - Contém: Variáveis Primitivas e Controle de Fluxo; Orientação a Objetos; Arrays; Modificadores de Acesso e Atributos de Classe; Herança, Reescrita e Polimorfismo; Classes Abstratas; Interfaces; Exceções e Controle de Erros; Ferramentas: Jar e JavaDoc; Pacotes: Java.lang; Pacote Java.io; Coleções; Interface gráfica com o usuário.
 - Para entender cada exercício, há um arquivo *Info.txt* em cada pasta com perguntas referente aos exercícios.
+
+<p> Os exercícios são separados de acordo com os slides em sala de aula, se tem exercício no slide da aula x, a pasta será denominada "aula x".
