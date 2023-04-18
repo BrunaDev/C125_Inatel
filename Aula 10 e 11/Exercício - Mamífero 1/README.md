@@ -1,18 +1,11 @@
-## Getting Started
+## Exercício - Mamífero (Aula 10)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Crie classes Java para modelar o UML;
+- Crie uma classe Main, com método main() para fazer o teste;
+- Cada classe que herda de Mamifero, deve implementar o seu método emitirSon(). Pode apenas imprimir mensagens;
+- A classe Mamifero e o método emitirSon() são abstratos;
 
-## Folder Structure
+<p>
+  
+![image](https://user-images.githubusercontent.com/72671246/232803338-6ed4e208-eef1-4d12-84a3-daa498471680.png)
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
