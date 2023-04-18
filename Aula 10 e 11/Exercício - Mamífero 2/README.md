@@ -1,18 +1,7 @@
-## Getting Started
+## Exercício - Mamífero (Aula 11)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Com base no exercício anterior, implemente a interface mostrada na UML a seguir:
 
-## Folder Structure
+<p>
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![image](https://user-images.githubusercontent.com/72671246/232804524-a6da0410-5e0d-408c-a530-02f29e37ad4b.png)
