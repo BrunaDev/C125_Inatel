@@ -9,15 +9,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        BrownieCafe bwCafe = new BrownieCafe("Brownie de Café", 10, "Café");
-        BrownieNutella bwNutella = new BrownieNutella("Brownie de Nutella", 70, "Nutella");
-        BrownieDoceDeLeite bwDoceLeite = new BrownieDoceDeLeite("Brownie Doce de Leite", 15, "Doce de leite");
+        BrownieCafe bc = new BrownieCafe("Brownie de Café", 10, "Café");
+        BrownieDoceDeLeite dc = new BrownieDoceDeLeite("Brownie de Doce de Leite", 12.5, "Doce de Leite CooperRita");
+        BrownieNutella bn = new BrownieNutella("Brownie Nutella", 15, "Nutella - Creme de Avelã");
 
         Comprador comprador = new Comprador("Comprador", 1000.95);
 
-        comprador.efetuarCompra(bwCafe);
-        comprador.efetuarCompra(bwNutella);
-        comprador.efetuarCompra(bwDoceLeite);
+        comprador.efetuarCompra(bc);
+        comprador.efetuarCompra(bn);
+        comprador.efetuarCompra(dc);
 
     }
 }
