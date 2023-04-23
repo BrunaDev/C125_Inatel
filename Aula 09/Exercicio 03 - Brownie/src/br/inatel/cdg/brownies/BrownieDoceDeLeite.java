@@ -7,7 +7,7 @@ public class BrownieDoceDeLeite extends Brownie {
     }
 
     public void adicionaDoceDeLeite() {
-        System.out.println(super.nome + " adicionando mais doce de leite!!");
+        System.out.println(super.nome + " Opção selecionada: adicionando mais doce de leite.");
 
     }
 
