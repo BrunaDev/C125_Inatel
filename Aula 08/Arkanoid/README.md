@@ -1,18 +1,8 @@
-## Getting Started
+## Exercício - Arkanoid
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Simule um jogo de Arkanoid. Construa duas classes, Jogador e Bloco. Lembre-se de utilizar pacotes para organizar;
+- A cada novo bloco, incremente o número de blocos em jogo;
+- A cada bloco destruído, decremente o número de blocos em jogo e aumente a pontuação do Jogador;
+- Ao final, imprima o número de blocos criados, destruídos e a pontuação do jogador; 
+- Crie um método estático em uma classe Conversor que converte a pontuação do jogador em moedas: 1 ponto = 100 moedas. 
+<p> Mostre o número de moedas na classe Main.
