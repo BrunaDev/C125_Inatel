@@ -14,17 +14,18 @@ public class Brownie {
 
     public void addCarrinhoDeCompras() {
 
-        System.out.println("Adicionando no carrinho de compras um: " + nome);
+        System.out.println("Adicionando no carrinho de compras: " + nome);
     }
 
     public void calculaValorTotalCompra() {
-        System.out.println("Calculando valor total da compra de um: " + nome + ": " + preco);
+        System.out.println("O valor total da compra feita (" + nome + ") é: " + preco);
     }
 
     public void mostraInfo() {
-        System.out.println("Nome do produto: " + nome);
-        System.out.println("Preço do produto: " + preco);
-        System.out.println("Sabor do produto: " + sabor);
+        System.out.println("- Nome do produto: " + nome);
+        System.out.println("- Preço do produto: " + preco);
+        System.out.println("- Sabor do produto: " + sabor);
+        
         System.out.println(" ");
     }
 
