@@ -7,7 +7,7 @@ public class BrownieCafe extends Brownie {
     }
 
     public void adicionaCafe() {
-        System.out.println(super.nome + " adicionando mais café");
+        System.out.println(super.nome + " Opção selecionada: adicionando mais café.");
     }
 
     @Override
