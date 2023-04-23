@@ -8,7 +8,7 @@ public class BrownieNutella extends Brownie {
 
     public void adicionaNutella() {
 
-        System.out.println(super.nome + " adicionando mais nutella");
+        System.out.println(super.nome + " Opção selecionada: adicionando mais nutella.");
     }
 
     @Override
