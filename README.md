@@ -9,3 +9,15 @@ Este repositório é referente as atividades de programação que foram feitas n
 - Para entender cada exercício, há um arquivo *Info.txt* em cada pasta com perguntas referente aos exercícios.
 
 <p> Os exercícios são separados de acordo com os slides em sala de aula, se tem exercício no slide da aula x, a pasta será denominada "aula x".
+<p>
+
+| Aula | Matéria referente |
+| ------------- | ------------- |
+| Aula 03  | Variáveis Primitivas e Controle de Fluxo |
+| Aula 04  | Introdução a POO  |
+| Aula 05  | Arrays |
+| Aula 06  | Pacotes |
+| Aula 07  | Modificadores de Acesso |
+| Aula 08  | Construtores e Static |
+| Aula 09  | Herança e Polimorfismo |
+| Aula 10/11  | Classes Abstratas e Interface |
