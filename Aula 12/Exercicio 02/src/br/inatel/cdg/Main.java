@@ -25,9 +25,10 @@ public class Main {
         listaClasseMae.add(joaquim);
 
         // Ordena chamando o método sort (static)
-        Collections.sort(listaClasseMae, Collections.reverseOrder());
+        Collections.sort(listaClasseMae);
 
         // Depois de ordenar
+        System.out.println("Apresentação em ordem decrescente: ");
         for (ClasseMae filhas : listaClasseMae) {
             System.out.println(filhas.getNome() + " - " + filhas.getIdade() + " anos.");
         }
