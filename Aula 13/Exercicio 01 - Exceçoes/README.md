@@ -1,18 +1,8 @@
-## Getting Started
+## Exercício - 1!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Na classe Conta, crie um método mostraInfo();
+- Esse método deverá mostrar as informações da conta (saldo, limite) e também as informações dos clientes;
+- Utilize um HashSet para armazenar as informações dos clientes;
+- Adicione apenas 2 clientes e um cliente nulo (3 clientes ao total);
+- Dentro do método mostraInfo() faça um for-each no HashSet de Clientes e trate o NullPointerException utilizando o try-catch quando for apresentar os dados do clientes. Faça isso dentro do método mostraInfo(). Lembre-se, apenas 3 clientes foram adicionados, mas o for-each irá varrer todo o Set;
+- No final do método main() adicione uma mensagem para garantir que o programa executou até o final.
