@@ -1,18 +1,8 @@
-## Getting Started
+## Exercício 3 – Medindo Desempenho!
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Nesse exercício iremos medir o desempenho de um ArrayList, HashSet e HashMap;
+- Crie essas três estrutura e preencha com 100000 (Cem mil) valores inteiros. A chave do Mapa também deverá ser inteira (Integer);
+- Meça o tempo gasto para inserir cada elemento;
+- Após as coleções preenchidas, busque todos os elementos e meça o tempo gasto em cada busca;
+- Crie variáveis auxiliares para realizar tarefa;
+- Utilize o método System.currentTimeMillis() (com o tipo long) para buscar a hora do sistema no instante.
