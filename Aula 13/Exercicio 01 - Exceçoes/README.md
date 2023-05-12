@@ -1,4 +1,4 @@
-## Exercício - 1!
+## Exercício - 01
 
 - Na classe Conta, crie um método mostraInfo();
 - Esse método deverá mostrar as informações da conta (saldo, limite) e também as informações dos clientes;
