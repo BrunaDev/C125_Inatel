@@ -1,4 +1,4 @@
-## Exercício Avaliativo 02 - Redes Sociais
+## Redes Sociais - Exercício Avaliativo 02
 
 **Questão**: As Redes Sociais são ferramentas essenciais nos dias de hoje! Apesar de serem ferramentas muito interessantes e possuírem características específicas, elas também compartilham muitas funcionalidades em comum. Crie Classes em Java que atendam às seguintes regras e especificações abaixo:
 
