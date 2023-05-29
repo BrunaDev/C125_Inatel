@@ -6,6 +6,13 @@ public abstract class RedeSocial {
     protected String senha;
     protected int numAmigos;
 
+    //Construtor da classe
+    public RedeSocial(String senha, int numAmigos)
+    {
+        this.senha = senha;
+        this.numAmigos = numAmigos;
+    }
+
     // Métodos abstratos
     public abstract void postarFoto();
     public abstract void postarVideo();
@@ -13,19 +20,5 @@ public abstract class RedeSocial {
 
     public void curtirPublicacao() {
         System.out.println("Você curtiu a publicação!\n");
-    }
-
-    // Liberando o acesso para a visualização (GET)
-    public int getNumAmigos() {
-        return this.numAmigos;
-    }
-
-    // Liberando o acesso para a edição (SET)
-    public void setSenha(String senha) {
-        this.senha = senha;
-    }
-
-    public void setNumAmigos(int numAmigos) {
-        this.numAmigos = numAmigos;
     }
 }
