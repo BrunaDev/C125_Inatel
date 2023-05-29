@@ -9,6 +9,11 @@ import br.inatel.cdg.interfaces.VideoConferencia;
 //Classe Facebook herda de Rede Social
 public class Facebook extends RedeSocial implements VideoConferencia, Compartilhamento {
 
+    //Construtor da classe
+    public Facebook(String senha, int numAmigos) {
+        super(senha, numAmigos);
+    }
+
     //Reescritas dos métodos
     @Override
     public void fazStreaming() {
@@ -39,5 +44,4 @@ public class Facebook extends RedeSocial implements VideoConferencia, Compartilh
         System.out.println("Você postou um comentário no Facebook\n");
 
     }
-
 }
