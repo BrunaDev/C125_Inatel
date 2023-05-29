@@ -7,6 +7,11 @@ import br.inatel.cdg.interfaces.VideoConferencia;
 
 public class Instagram extends RedeSocial implements VideoConferencia, Compartilhamento {
 
+    // Construtor da classe
+    public Instagram(String senha, int numAmigos) {
+        super(senha, numAmigos);
+    }
+
     //Reescritas dos métodos
     @Override
     public void fazStreaming() {
@@ -37,5 +42,4 @@ public class Instagram extends RedeSocial implements VideoConferencia, Compartil
         System.out.println("Você postou um comentário no Instagram\n");
 
     }
-
 }
