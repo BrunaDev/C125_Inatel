@@ -1,4 +1,5 @@
-package br.inatel.cdg.redes; //definindo o caminho dos pacotes
+//definindo o caminho dos pacotes
+package br.inatel.cdg.redes;
 
 //importando arquivos
 import br.inatel.cdg.RedeSocial;
@@ -6,6 +7,11 @@ import br.inatel.cdg.interfaces.Compartilhamento;
 import br.inatel.cdg.interfaces.VideoConferencia;
 
 public class Twitter extends RedeSocial implements VideoConferencia, Compartilhamento {
+
+    // Construtor da classe
+    public Twitter(String senha, int numAmigos) {
+        super(senha, numAmigos);
+    }
 
     //Reescritas dos métodos
     @Override
@@ -37,5 +43,4 @@ public class Twitter extends RedeSocial implements VideoConferencia, Compartilha
         System.out.println("Você postou um comentário no Twitter\n");
 
     }
-
 }
