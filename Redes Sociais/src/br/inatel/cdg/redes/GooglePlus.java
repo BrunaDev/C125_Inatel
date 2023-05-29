@@ -7,6 +7,11 @@ import br.inatel.cdg.interfaces.VideoConferencia;
 
 public class GooglePlus extends RedeSocial implements VideoConferencia, Compartilhamento {
 
+    // Construtor da classe
+    public GooglePlus(String senha, int numAmigos) {
+        super(senha, numAmigos);
+    }
+
     //Reescritas dos métodos
     @Override
     public void fazStreaming() {
@@ -37,5 +42,4 @@ public class GooglePlus extends RedeSocial implements VideoConferencia, Comparti
         System.out.println("Você postou um comentário no Google Plus\n");
 
     }
-
 }
